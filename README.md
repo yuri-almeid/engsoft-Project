@@ -10,8 +10,7 @@ Requisito | Descrição
 Efetuar cadastro | Os usuários serão cadastrados no sistema.
 Identificação unica | Os usuários serão identificados por um identificador único que será o e-mail.
 Validar campo e-mail | O campo e-mail será validado. 
-Efetuar login | Autenticação de usuários cadastrados no sistema, permitindo acesso as funcionalidades 
-do aplicativo.
+Efetuar login | Autenticação de usuários cadastrados no sistema, permitindo acesso as funcionalidades do aplicativo.
 Criar grupo | Os usuários poderão criar diferentes grupos para gerenciar atividades diversas.
 Compartilhar grupo | Um usuário pode convidar outro usuário para um grupo.
 Ingressar em grupo | Um usuário pode ingressar em outro grupo desde que tenha um convite.
@@ -19,8 +18,6 @@ Agregar divida | Todos os usuários de um grupo poderão cadastrar dividas ao gr
 Visualizar divida | As dividas registradas em um grupo estarão disponiveis para visualização de qualquer usuário integrande do grupo.
 Alterar divida | Qualquer integrante do grupo poderá alterar o estado da divida, por exemplo colocar o estado como divida paga ou divida cancelada.
 Notificação | Os usuarios poderão configurar o aplicativo para que notificações de informações importantes como data de validade proxima de expirar, alterações de estado de uma divida e adição de nova divida entre outras. As notificações seram feitas tanto via aplicativo quanto via email.
-
-... | 
 ### Requisitos não funcionais
 Requisito | Descrição
 :--------- | :--------- 
