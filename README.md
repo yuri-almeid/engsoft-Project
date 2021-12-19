@@ -7,22 +7,28 @@ Front e Back Javascripts(React.js, Node.js), Back Python, Banco - MongoDB(Não R
 ### Requisitos funcionais
 Requisito | Descrição
 :--------- | :--------- 
-... | Cadastro das residências e usuários;
-... | Os usuários serão identificados por um identificador único que será o e-mail;
-... | As residências serão cadastradas pelos usuários;
-... | Um usuário pode compartilhar com outro usuário uma residência cadastrada;
-... | Todos usuários de uma residência poderam cadastrar boletos;
-... | Para cadastrar boletos o usuario deverá anexar o PDF ao aplicativo;
-... | Os boletos cadastrados pelos usuários estaram disponiveis para visualização de qualquer pessoa registrada na residência;
-... | O aplicativo notificará aos usuarios informações importantes como data de validade proxima de expirar, boleto pago, boleto vencido, boleto adicionado e boleto excluido entre outras;
-... | Qualquer usuario poderá informar o boleto como pago ficando gravado quem pagou e quando;
-... | As notificações seram feitas tanto via aplicativo quanto via email.
+Efetuar cadastro | Os usuários serão cadastrados no sistema.
+Identificação unica | Os usuários serão identificados por um identificador único que será o e-mail.
+Validar campo e-mail | O campo e-mail será validado. 
+Efetuar login | Autenticação de usuários cadastrados no sistema, permitindo acesso as funcionalidades 
+do aplicativo.
+Criar grupo | Os usuários poderão criar diferentes grupos para gerenciar atividades diversas.
+Compartilhar grupo | Um usuário pode convidar outro usuário para um grupo.
+Ingressar em grupo | Um usuário pode ingressar em outro grupo desde que tenha um convite.
+Agregar divida | Todos os usuários de um grupo poderão cadastrar dividas ao grupo. O cadastro de um divida a um grupo consiste em anexar o arquivo PDF do boleto ao aplicativo.
+Visualizar divida | As dividas registradas em um grupo estarão disponiveis para visualização de qualquer usuário integrande do grupo.
+Alterar divida | Qualquer integrante do grupo poderá alterar o estado da divida, por exemplo colocar o estado como divida paga ou divida cancelada.
+Notificação | Os usuarios poderão configurar o aplicativo para que notificações de informações importantes como data de validade proxima de expirar, alterações de estado de uma divida e adição de nova divida entre outras. As notificações seram feitas tanto via aplicativo quanto via email.
+
+... | 
 ### Requisitos não funcionais
 Requisito | Descrição
 :--------- | :--------- 
-... | A interface de usuário deve ser o mais simples possível para evitar confusão e o gerenciamento seja atrapalhado por isso;
-... | O sistema será suportado apenas para aplicativo mobile;
-... | O sistema deverá ser desenvolvido nas linguagem JavaScript e Python.
-
+Usuabilidade | A interface de usuário deve ser o mais simples possível para evitar confusão e o gerenciamento seja atrapalhado por isso;
+Portabilidade | O sistema será suportado apenas para aplicativo mobile;
+Implementação | O sistema será desenvolvido nas linguagem JavaScript e Python.
+Funcionalidade | O sistema seguirá um desenvolvimento incremental.
+Manutenibilidade | O sistema será implementado seguindo uma filosofia _Clean Code_
+## Diagrama de casos de uso
 ## Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
