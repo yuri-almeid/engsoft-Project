@@ -1,28 +1,42 @@
 # Projeto de Engenharia de Software
-## Concepção do sistema (Vitor)
+## Concepção do sistema
 Aplicativo de gestão financeira
-## Definição do ferramental a ser utilizado (Yuri)
+## Definição do ferramental
 Front e Back Javascripts(React.js, Node.js), Back Python, Banco - MongoDB(Não Relacional) e MySQL(Relacional).
-## Requisitos Preliminares do sistema (Gabriel e Marcos)
+## Requisitos Preliminares do sistema
 ### Requisitos funcionais
 Requisito | Descrição
 :--------- | :--------- 
-... | Cadastro das residências e usuários;
-... | Os usuários serão identificados por um identificador único que será o e-mail;
-... | As residências serão cadastradas pelos usuários;
-... | Um usuário pode compartilhar com outro usuário uma residência cadastrada;
-... | Todos usuários de uma residência poderam cadastrar boletos;
-... | Para cadastrar boletos o usuario deverá anexar o PDF ao aplicativo;
-... | Os boletos cadastrados pelos usuários estaram disponiveis para visualização de qualquer pessoa registrada na residência;
-... | O aplicativo notificará aos usuarios informações importantes como data de validade proxima de expirar, boleto pago, boleto vencido, boleto adicionado e boleto excluido entre outras;
-... | Qualquer usuario poderá informar o boleto como pago ficando gravado quem pagou e quando;
-... | As notificações seram feitas tanto via aplicativo quanto via email.
+Cadastrar usuário | Os usuários serão cadastrados no sistema, e serão identificados por um identificador único que será o e-mail.
+Editar cadastro | O usuário pode editar sua informações de cadastro.
+Excluir cadastro | Possibilita o usuário excluir seu cadastro.
+Validar e-mail | O campo e-mail será validado. 
+Efetuar login | Autenticação de usuários cadastrados no sistema, permitindo acesso as funcionalidades do aplicativo.
+Criar grupo | Os usuários poderão criar diferentes grupos para gerenciar atividades diversas.
+Compartilhar grupo | Um usuário pode convidar outro usuário para um grupo.
+Ingressar em grupo | Um usuário pode ingressar em outro grupo desde que tenha um convite.
+Editar grupo | Usuário pode editar grupo cadastrado.
+Excluir grupo | Usuário pode excluir grupo cadastrado.
+Agregar dívida | Todos os usuários de um grupo poderão cadastrar dívidas ao grupo. O cadastro de um dívida a um grupo consiste em anexar o arquivo PDF do boleto ao aplicativo.
+Visualizar dívida | As dívidas registradas em um grupo estarão disponiveis para visualização de qualquer usuário integrande do grupo.
+Alterar dívida | Qualquer integrante do grupo poderá alterar o estado da dívida, por exemplo colocar o estado como dívida paga ou dívida cancelada.
+Notificar usuários | Os usuários poderão configurar o aplicativo para que notificações de informações importantes como data de validade próxima de expirar, alterações de estado de uma dívida e adição de nova dívida entre outras. As notificações seram feitas tanto via aplicativo quanto via email.
+Buscar em grupo | Permitir ao usuário fazer uma busca por texto de um grupo sobre o qual deseja informações. Com base no texto fornecido pelo usuário, verificar se existem grupos registrados cujo nome contenha o texto de forma que seja possível revelar informações como dívidas e usuários integrantes caso um grupo relacionado ao texto existir.
+Buscar em dívidas | Permitir ao usuário fazer uma busca por texto de uma dívida sobre o qual deseja informações | Com base no texto fornecido pelo usuário, verificar se existem dívidas registradas cujo nome contenha o texto de forma que seja possível revelar informações como grupo, valor, data de validade entre outras caso uma dívida relacionada ao texto existir.
+
 ### Requisitos não funcionais
 Requisito | Descrição
 :--------- | :--------- 
-... | A interface de usuário deve ser o mais simples possível para evitar confusão e o gerenciamento seja atrapalhado por isso;
-... | O sistema será suportado apenas para aplicativo mobile;
-... | O sistema deverá ser desenvolvido nas linguagem JavaScript e Python.
-
+Usuabilidade | O sistema deve prover suas funcionalidade ao usuário da maneira mais usual possível, de modo que em poucas interações e de forma intuitiva o usuário consiga encontrar as informações que deseja.
+Portabilidade | O sistema será suportado apenas para aplicativo mobile;
+Desempenho quanto à utilização de recursos | O sistema deve usar os recursos disponibilizados pelos aparelhos móveis de forma exata as suas necessidades, não desperdiçando a utilização de nenhum destes recursos, evitando o desperdício de informações e aumentando a autonomia da bateria do aparelho.
+Desempenho quanto ao tempo de resposta | O sistema deve ter um limite na obtenção das respostas a serem fornecidas ao usuário dependendo da operação requisitada, de forma que o usuário não fique esperando infinitamente por uma opção e seja corretamente informado quando alguma operação está demorando mais do que o previsto ou estourou seu tempo de limite.
+Tratamento de erros | A aplicação deve tratar erros inerentes ao sistema em que está rodando, como problemas na conexão, eventual fechamento da aplicação por falta de memória, falta de espaço local para armazenamento de dados, entre outros, de forma que seu funcionamento não seja prejudicado ou, em última instância, que o usuário seja avisado do porquê do não funcionamento da aplicação.
+Desempenho quanto à utilização da conexão de dados | A aplicação deve utilizar somente o necessário da conexão de dados provida pelo aparelho móvel, de forma a não ocupar desnecessariamente recursos compartilhados com outras aplicações.
+Retorno do tempo das operações ao usuário | O usuário deve ter retorno visual claro da demora de suas operações, de modo que saiba estimar o quanto tempo cada uma delas demorará a atender as suas necessidades.
+Implementação | O sistema não possuirá restrição quanto ao ferramental utilizado, desde que se houver custo ao cliente, este deve ser aprovado previamente.
+Funcionalidade | O sistema seguirá um desenvolvimento incremental.
+Manutenibilidade | O sistema será implementado seguindo uma filosofia _Clean Code_
+## Diagrama de casos de uso
 ## Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
