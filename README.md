@@ -38,5 +38,7 @@ Implementação | O sistema não possuirá restrição quanto ao ferramental uti
 Funcionalidade | O sistema seguirá um desenvolvimento incremental.
 Manutenibilidade | O sistema será implementado seguindo uma filosofia _Clean Code_
 ## Diagrama de casos de uso
+[DiagramaCasosUso.pdf](https://github.com/yuri-almeid/engsoft-Project/files/7747965/DiagramaCasosUso.pdf)
+
 ## Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
