@@ -2,7 +2,52 @@
 ## Concepção do sistema
 Aplicativo de gestão financeira
 ## Definição do ferramental
-Front e Back Javascripts(React.js, Node.js), Back Python, Banco - MongoDB(Não Relacional) e MySQL(Relacional).
+
+# Backend
+
+## NodeJs 
+
+O nodeJs surgiu como um interpretador do javascript sem necessidade de um browser. O nodeJs é uma execelente ferramenta para aplicações que buscam escalabilidade e estabilidade, além disso devido aos seus frameworks se torna algo poderoso para desenvolvimento de APIs. Segue as principais vantagens do uso do Node no backend:
+
+- Fácil integração com bancos de dados (Relacionais e não relacionais)
+- Comunicação com APIs (Application Programming Interface) e webservices
+- Adequado para Criptografia e Segurança
+- Facilidade em realizar Autenticação de usuário
+- Comunicação via json com com Front-end e outros serviços
+
+### Grandes players que usam nodeJs:
+
+- Uber
+- Netflix
+- Linkedin
+- Nasa
+- Walmart
+
+## Express
+
+O Node por si só daria conta de gerir uma API para a aplicação desejada, entretanto, existem frameworks que facilitam neste desafio que é o caso do microframework chamado Express.
+
+O Express é usado para se ter uma aplicação web fornecendo ferramentas e utilitários HTTP e middlewares. Existem outras ferramentas parecidas no mercado mas o Express conta com a maior documentação e uma ampla comunidade de apoiadores.
+
+## MongoDB
+
+Para este projeto foi pensado em um banco de dados não relacional justamente pela flexibilidade de armazenar os dados sem usar uma estrutura específica, mas usando o formato JSON (JavaScript Object Notation). Partindo do ponto que para a aplicação que será desenvolvida serão armazenados os dados de Usuários, Residências, Boletos entre outras coisas então fica mais simples estruturar esses modelos com a junção NodeJs + MongoDb.
+
+
+---------------------------------------------------------------
+
+# Frontend
+
+## ReactJs
+
+O ReactJs é uma biblioteca JavaScript para facilitar a criação de interfaces de usuários, faz com que cada componente da tela seja uma view declarativa, o que deixa o código mais previsível e fácil de ser implementado.
+
+
+## React Native
+
+O React Native é uma versão do reactJs focada em mobile, com o React Native é possível ao mesmo tempo criar uma aplicação para IOS e para Android. O código é escrito em javascript e renderizado em código nativo para as duas plataformas.
+
+
 ## Requisitos Preliminares do sistema
 ### Requisitos funcionais
 Requisito | Descrição
