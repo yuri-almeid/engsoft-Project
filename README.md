@@ -45,6 +45,8 @@ Implementação | O sistema não possuirá restrição quanto ao ferramental uti
 Funcionalidade | O sistema seguirá um desenvolvimento incremental.
 Manutenibilidade | O sistema será implementado seguindo uma filosofia _Clean Code_.
 ## Diagrama de casos de uso
-<img src="https://user-images.githubusercontent.com/63003622/146835139-24b0db53-3d69-445e-8f80-7f1ea6aed265.jpg" width=50% height=50%>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63003622/146835139-24b0db53-3d69-445e-8f80-7f1ea6aed265.jpg" width=50% height=50%/>
+</p>
 ## Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
