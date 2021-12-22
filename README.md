@@ -1,6 +1,6 @@
 # Projeto de Engenharia de Software
 Aplicativo de gestão financeira
-## Concepção do sistema
+# Concepção do sistema
 
 **Rateio de dívidas da casa**: eis aí um problema clássico da vida de pessoas que não se conhecem, mas se veêm obrigadas a dividir um imóvel. Com estes desenvolvedores que vos falam acontece muito: você combina com seus colegas de casa uma porcentagem a ser paga dos boletos e contas recorrentes por cada um, mas muitas vezes as desculpas esfarrapadas vêm no dia do vencimento, e você fica com o abacaxi na mão. O **DivideA.Í.** é um novo app que resolve essa questão: você define uma modalidade de rateio para cada conta, adiciona as pessoas que moram com você ao grupo da sua casa e pronto, a quantia a ser paga por cada um aparece na tela do seu celular pra todo mundo ver!
 
@@ -10,11 +10,11 @@ Aplicativo de gestão financeira
     <img src="https://i.imgur.com/qTeYTpO.png" />
 </p>
 
-## Definição do ferramental
+# Definição do ferramental
 
-# Backend
+## Backend
 
-## NodeJs 
+### NodeJs 
 
 O nodeJs surgiu como um interpretador do javascript sem necessidade de um browser. O nodeJs é uma execelente ferramenta para aplicações que buscam escalabilidade e estabilidade, além disso devido aos seus frameworks se torna algo poderoso para desenvolvimento de APIs. Segue as principais vantagens do uso do Node no backend:
 
@@ -24,7 +24,7 @@ O nodeJs surgiu como um interpretador do javascript sem necessidade de um browse
 - Facilidade em realizar Autenticação de usuário
 - Comunicação via json com com Front-end e outros serviços
 
-### Grandes players que usam nodeJs:
+#### Grandes players que usam nodeJs:
 
 - Uber
 - Netflix
@@ -32,31 +32,31 @@ O nodeJs surgiu como um interpretador do javascript sem necessidade de um browse
 - Nasa
 - Walmart
 
-## Express
+### Express
 
 O Node por si só daria conta de gerir uma API para a aplicação desejada, entretanto, existem frameworks que facilitam neste desafio que é o caso do microframework chamado Express.
 
 O Express é usado para se ter uma aplicação web fornecendo ferramentas e utilitários HTTP e middlewares. Existem outras ferramentas parecidas no mercado mas o Express conta com a maior documentação e uma ampla comunidade de apoiadores.
 
-## MongoDB
+### MongoDB
 
 Para este projeto foi pensado em um banco de dados não relacional justamente pela flexibilidade de armazenar os dados sem usar uma estrutura específica, mas usando o formato JSON (JavaScript Object Notation). Partindo do ponto que para a aplicação que será desenvolvida serão armazenados os dados de Usuários, Residências, Boletos entre outras coisas então fica mais simples estruturar esses modelos com a junção NodeJs + MongoDb.
 
 
 ---------------------------------------------------------------
 
-# Frontend
+## Frontend
 
-## ReactJs
+### ReactJs
 
 O ReactJs é uma biblioteca JavaScript para facilitar a criação de interfaces de usuários, faz com que cada componente da tela seja uma view declarativa, o que deixa o código mais previsível e fácil de ser implementado.
 
 
-## React Native
+### React Native
 
 O React Native é uma versão do reactJs focada em mobile, com o React Native é possível ao mesmo tempo criar uma aplicação para IOS e para Android. O código é escrito em javascript e renderizado em código nativo para as duas plataformas.
-## Requisitos Preliminares do sistema
-### Requisitos funcionais
+# Requisitos Preliminares do sistema
+## Requisitos funcionais
 Requisito | Descrição
 :--------- | :--------- 
 Cadastrar usuário | Os usuários serão cadastrados no sistema e serão identificados por um identificador único que será o e-mail.
@@ -76,7 +76,7 @@ Notificar usuários | Os usuários poderão configurar o aplicativo para que not
 Buscar em grupo | Permitir ao usuário fazer uma busca por texto de um grupo sobre o qual deseja informações. Com base no texto fornecido pelo usuário, verificar se existem grupos registrados cujo nome contenha o texto de forma que seja possível revelar informações como dívidas e usuários integrantes caso um grupo relacionado ao texto existir.
 Buscar em dívidas | Permitir ao usuário fazer uma busca por texto de uma dívida sobre o qual deseja informações. Com base no texto fornecido pelo usuário, verificar se existem dívidas registradas cujo nome contenha o texto de forma que seja possível revelar informações como grupo, valor, data de validade entre outras caso uma dívida relacionada ao texto existir.
 
-### Requisitos não funcionais
+## Requisitos não funcionais
 Requisito | Descrição
 :--------- | :---------
 Usuabilidade | O sistema deve prover suas funcionalidade ao usuário da maneira mais usual possível, de modo que em poucas interações e de forma intuitiva o usuário consiga encontrar as informações que deseja.
@@ -95,5 +95,5 @@ Manutenibilidade | O sistema será implementado seguindo uma filosofia _Clean Co
     <img src="https://user-images.githubusercontent.com/63003622/146835139-24b0db53-3d69-445e-8f80-7f1ea6aed265.jpg" width=50% height=50% />
 </p>
 
-## Planejamento do trabalho
+# Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
