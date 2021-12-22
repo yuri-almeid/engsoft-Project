@@ -58,7 +58,7 @@ O React Native é uma versão do reactJs focada em mobile, com o React Native é
 ## Requisitos Preliminares do sistema
 ### Requisitos funcionais
 Requisito | Descrição
-:--------- | :--------- 
+:--------- | :---------: 
 Cadastrar usuário | Os usuários serão cadastrados no sistema e serão identificados por um identificador único que será o e-mail.
 Editar cadastro | O usuário pode editar sua informações de cadastro.
 Excluir cadastro | Possibilita o usuário excluir seu cadastro.
@@ -78,7 +78,7 @@ Buscar em dívidas | Permitir ao usuário fazer uma busca por texto de uma dívi
 
 ### Requisitos não funcionais
 Requisito | Descrição
-:--------- | :--------- 
+:--------- | :---------:
 Usuabilidade | O sistema deve prover suas funcionalidade ao usuário da maneira mais usual possível, de modo que em poucas interações e de forma intuitiva o usuário consiga encontrar as informações que deseja.
 Portabilidade | O sistema será suportado apenas para aplicativo mobile.
 Desempenho quanto à utilização de recursos | O sistema deve usar os recursos disponibilizados pelos aparelhos móveis de forma exata às suas necessidades, não desperdiçando a utilização de nenhum destes recursos, evitando o desperdício de informações e aumentando a autonomia da bateria do aparelho.
