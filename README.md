@@ -57,7 +57,7 @@ O ReactJs é uma biblioteca JavaScript para facilitar a criação de interfaces 
 O React Native é uma versão do reactJs focada em mobile, com o React Native é possível ao mesmo tempo criar uma aplicação para IOS e para Android. O código é escrito em javascript e renderizado em código nativo para as duas plataformas.
 # Requisitos Preliminares do sistema
 
-Os requisitos são detalhados no documento de [especificações de requisitos]().
+Os requisitos são detalhados no documento de [especificações de requisitos](https://github.com/yuri-almeid/engsoft-Project/blob/main/docs/SRS.pdf).
 
 # Planejamento do trabalho
 O trabalho será organizado e gerenciado via [Trello](https://trello.com/invite/b/ssYTa750/2ad819f23522e75f6278c0887b2574bf/engsof) seguindo a metodologia SCRUM.
