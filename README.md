@@ -7,7 +7,7 @@ Aplicativo de gestão financeira
 **Exemplo:** suponha que você mora com dois amigos, o João e a Joana. João está desempregado no momento, então passa boa parte da tarde mergulhado nas mais novas séries da Netflix e do HBO Max, assinaturas recorrentes divididas por todos da casa. Joana, por sua vez, descobriu há alguns anos o universo das criptomoedas, então deixa o seu computador minerando Bitcoin durante o dia todo, enquanto está fora trabalhando. Caro leitor, é justo combinar que cada um dos moradores dessa casa vai pagar um terço desses boletos, tanto das assinaturas de serviços de streaming, quanto da conta de energia? **Bom, isso eles é que vão decidir!** O app **DivideA.Í.** proporciona isso: defina qual a porcentagem a ser paga por cada um da casa com antecedência, e elimine **de vez** a indecisão na hora do rateio!
 
 <p align="center">
-    <img src="https://i.imgur.com/qTeYTpO.png" />
+    <img src="https://i.imgur.com/QRqLtef.png" />
 </p>
 
 # Definição do ferramental
