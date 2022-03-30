@@ -1,17 +1,9 @@
-const express = require('express');
-const cors = require('cors');
-const routes = require('./routes');
-const bodyParser = require('body-parser');
+const app = require('./server');
 
-const app = express();
+app.get('/test', (req, res) => {
+  res.send({ response: 'Sucess' });
+});
 
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use(routes);
-
-
-
-app.listen(3333, () => {
-    console.log('Servidor rodando...')
+app.listen(3000, () => {
+  console.log("Server started on port 3000 🔥");
 });
